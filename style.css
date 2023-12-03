@@ -22,8 +22,13 @@ keeping this CSS relatively short and easy to change.
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); /*this */
     gap:10px;
+    margin-top: 2rem;
 }
 
+h4 {
+    margin-top: 0;
+    font-weight: 600;
+}
 
 h1 {
     font-weight: 700;
@@ -33,34 +38,44 @@ p {
     text-align: left;
 }
 
-a:hover,
-li:hover {
-    background-color: var(--highlight-color);
-    color: var(--text-color);
-    transform: scale(1.05);
-    border-color: var(--text-color);
-}
 
-li {
-    list-style: none;
-    margin: 0.5em;
-    padding: 14px 15px;
+
+.link-button {
+    margin: 2rem;
+    padding: 1em;
     text-align: center;
     display: inline-block;
     border: 2.2px solid;
     width: auto;
+    cursor: pointer;
 }
 
-li a {
-    text-decoration: none;
+a:hover {
+    background-color: #ffdc20;
 }
 
-ul {
+
+#airbnb-link:hover {
+    color: white;
+    background-color: #FF5A5F;
+}
+
+#booking-link:hover {
+    color: white;
+    background-color: #003580;
+}
+
+
+
+
+.buttons {
     list-style-type: none;
     padding: 0;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
+
 
 
 .small-padding:link {

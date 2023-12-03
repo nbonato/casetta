@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css" defer>
     <script src="https://kit.fontawesome.com/e56523a6b4.js"></script>
+
     
     <title>La casetta a Susegana</title>
 </head>
@@ -28,14 +29,22 @@
                     Il nostro appartamento è anche molto vicino all'area delle <a href="https://www.fieresantalucia.it/">fiere di Santa Lucia</a>, un'opportunità unica di vivere la tradizione locale!
                     <br><br>
 
-                    È il posto ideale per coppie e singoli sia per soggiorni brevi che di lunga durata, per prenotarla potete andare sulla <a href="https://airbnb.it/h/susegana">nostra pagina Airbnb</a>.
+                    È il posto ideale per coppie e singoli sia per soggiorni brevi che di lunga durata, per prenotarla potete usare <a href="https://airbnb.it/h/susegana">Airbnb</a> o <a href="https://www.booking.com/hotel/it/appartamentino-a-susegana.it.html">Booking</a>.
                     </p>
                 </div>
-                <div class="airbnb-embed-frame" data-id="973795210164636138" data-view="home" style="width: min(90vw, 450px); margin: auto;">
-                    <a href="https://www.airbnb.it/rooms/973795210164636138?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">Visto su Airbnb</a><a href="https://www.airbnb.it/rooms/973795210164636138?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget" rel="dofollow">Unità in affitto · Susegana · ★5.0 · 1 camera da letto · 1 letto · 1 bagno</a>
-                    <script async="" src="https://it.airbnb.com/embeddable/airbnb_jssdk"></script>
+
+                
+                <div>
+                    <img src="salotto.jpg" alt="Foto del salotto dell'appartamento" width="100%">
                 </div>
             </div>
+
+            <div class="buttons">
+                <button class="link-button" id="airbnb-link" onclick="location.href='https://airbnb.it/h/susegana';">
+                    Prenota su Airbnb</button>
+                <button class="link-button" id="booking-link" onclick="location.href='https://www.booking.com/hotel/it/appartamentino-a-susegana.it.html';">Prenota su Booking</button>
+            </div>
+
             <!-- <ul>
                 <li>
                     <a href="wifi.html">
@@ -56,22 +65,6 @@
             </ul> -->
         </div>
     </div>
-    <script>
-        // Define a function to be executed after the Airbnb script has loaded
-        function customScript() {
-          // Get the element with class _xlzko7
-          var element = document.querySelector("._xlzko7");
-      
-          // Set the width to min(90vw, 450px)
-          if (element) {
-            var minWidth = Math.min(window.innerWidth * 0.9, 450);
-            element.style.width = minWidth + "px";
-          }
-        }
-      
-        // Add an event listener to execute the custom script after the Airbnb script has loaded
-        document.querySelector("script[src='https://it.airbnb.com/embeddable/airbnb_jssdk']").addEventListener('load', customScript);
-    </script>
 
 </body>
 </html> 
