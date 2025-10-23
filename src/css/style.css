@@ -1,0 +1,45 @@
+@import url("variables.css");
+
+nav {
+    background-color: rgb(199, 199, 199);
+}
+
+nav ul {
+    list-style-type: none;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+}
+
+.current-page {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+    width: var(--body-width);
+    margin: auto;
+}
+
+.language-switcher {
+    padding-top: 1rem;
+}
+
+
+h2 {
+    border-top: solid 1px gray;
+    padding-top: 1rem
+}
+
+img {
+    width: 100%;
+}

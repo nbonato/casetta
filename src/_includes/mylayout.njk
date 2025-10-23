@@ -1,0 +1,50 @@
+---
+title: mylayout
+---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- global stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- optional: page-specific stylesheet -->
+  {% if css %}
+  <link rel="stylesheet" href="{{ css }}">
+  {% endif %}
+  <title>{{ title }}</title>
+</head>
+
+<body>
+  <script>0</script> <!-- Avoid flash unstyled content -->
+  <nav>
+    <ul>
+      {% for item in nav[page.lang] %}
+      <li><a href="{{ item.url | locale_url }}"
+          class="{% if page.url == item.url  | locale_url %}current-page{% endif %}">
+          {{ item.title }}
+        </a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+
+
+  <div class="container">
+
+    <div class="language-switcher">
+      {% for link in page.url | locale_links %}
+      {%- if not loop.first %},{% endif %}
+      <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
+      {% endfor %}
+    </div>
+
+    {{ content | safe }}
+  </div>
+
+</body>
+
+</html>
