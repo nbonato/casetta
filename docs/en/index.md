@@ -7,6 +7,7 @@ eleventyTemplateEngine: njk
 
 # {{ title }}
 
+
 ## Welcome to our flat!
 
 This is a guide to our flat in Susegana.
