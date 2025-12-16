@@ -3,7 +3,8 @@ import { HtmlBasePlugin } from "@11ty/eleventy";
 
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("docs/css"); // or { "docs/css": "css" }
+  eleventyConfig.addPassthroughCopy("docs/css");
+  eleventyConfig.addPassthroughCopy("docs/assets");
   eleventyConfig.addPlugin(HtmlBasePlugin);
 
   eleventyConfig.addPlugin(I18nPlugin, {

@@ -11,4 +11,4 @@ Questa pagina raccoglie possibili problemi che potreste incontrare e relative so
 In caso di emergenze, **chiamate il 112, il numero di emergenza europeo** che vi indirizzerà al servizio più appropriato.
 
 
-![Black Huawei pocket wifi](../../assets/pictures/pocket-wifi.png)
+![Black Huawei pocket wifi](../assets/pictures/pocket-wifi.png)
