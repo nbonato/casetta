@@ -1,7 +1,10 @@
 import { I18nPlugin } from "@11ty/eleventy";
+import { HtmlBasePlugin } from "@11ty/eleventy";
+
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("docs/css"); // or { "docs/css": "css" }
+  eleventyConfig.addPlugin(HtmlBasePlugin);
 
   eleventyConfig.addPlugin(I18nPlugin, {
     defaultLanguage: "it",
@@ -19,5 +22,6 @@ export default function (eleventyConfig) {
     dir: {
       input: "docs",
     },
+	pathPrefix: "/casetta/"
   };
 }
