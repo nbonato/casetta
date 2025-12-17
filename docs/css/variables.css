@@ -2,13 +2,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul
+{
+    color: #424242;
+}
+
+
 :root {
     --body-width: 100dvw;
+}
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+nav {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
 }
 
 @media (min-width: 768px) {
     :root {
     --body-width: 80dvw;
+    }
+
+    body {
+        flex-direction: column;
+
     }
 }
 
