@@ -1,14 +1,14 @@
 module.exports = {
   en: [
-    { title: "home", url: "/" },
-    { title: "restaurants", url: "/restaurants/" },
-    { title: "shops", url: "/shops/" },
-    { title: "issues", url: "/issues" }    
+    { title: "Home", url: "/", icon:"home.svg"},
+    { title: "Restaurants", url: "/restaurants/", icon:"utensils.svg"},
+    { title: "Shops", url: "/shops/", icon:"shopping-cart.svg"},
+    { title: "Issues", url: "/issues/", icon:"exclamation.svg"}    
   ],
   it: [
-    { title: "home", url: "/" },
-    { title: "ristoranti", url: "/restaurants/" },
-    { title: "negozi", url: "/shops/" },
-    { title: "problemi", url: "/issues" }    
+    { title: "Home", url: "/", icon:"home.svg"},
+    { title: "Ristoranti", url: "/restaurants/", icon: "utensils.svg" },
+    { title: "Negozi", url: "/shops/", icon: "shopping-cart.svg" },
+    { title: "Problemi", url: "/issues/", icon: "exclamation.svg" }    
   ]
 };

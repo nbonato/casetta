@@ -25,6 +25,7 @@ title: mylayout
       {% for item in nav[page.lang] %}
       <li class="{% if page.url == item.url  | locale_url %}current-page{% endif %}"><a
           href="{{ item.url | locale_url }}">
+          <img class="nav-icon" src="/assets/icons/{{item.icon}}" alt=""></i>
           {{ item.title }}
         </a></li>
       {% endfor %}
@@ -41,7 +42,10 @@ title: mylayout
       {%- if not loop.first %},{% endif %}
       <a id="language-switcher" href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
     {% endfor %}
+
     {{ content | safe }}
+
+    <p id="credits">This website uses Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p>
   </div>
 
 </body>
