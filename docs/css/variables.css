@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6, p, ul
 
 :root {
     --body-width: 100dvw;
+    --accent-colour: #d44D13;
+    --brand-colour: #d76329;
 }
 
 body {

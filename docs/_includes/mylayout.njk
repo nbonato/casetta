@@ -31,22 +31,26 @@ title: mylayout
         </a></li>
       {% endfor %}
 
+      <li>{% for link in page.url | locale_links %}
+        {%- if not loop.first %},{% endif %}
+        <a id="language-switcher" href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">
+          <img class="nav-icon" src="/assets/icons/{{ link.label }}.svg" alt=""></i>
+          {{link.label}}</a>
+      {% endfor %}</li>
     </ul>
 
   </nav>
 
 
 
-  <div class="container">
+  <div>
+    <div id="decorative-band"></div>
 
-    {% for link in page.url | locale_links %}
-      {%- if not loop.first %},{% endif %}
-      <a id="language-switcher" href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-    {% endfor %}
-
-    {{ content | safe }}
-
-    <p id="credits">This website uses Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p>
+    <div class="container">
+      
+      {{ content | safe }}
+      <p id="credits">This website uses Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p>
+    </div>
   </div>
 
 </body>

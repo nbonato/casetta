@@ -38,7 +38,6 @@ The last two options are right around the corner, less than 200 meters from the 
 
 <details>
     <summary>Pizzeria - Ristorante</summary>
-    Many pizzerias are "Pizzeria - Ristorante", meaning they also offer classic restaurant meals, most often pasta dishes, salads and maybe some meat or fish dishes.
-
-    If you travel to more touristy areas (like most places in Venice), we'd suggest sticking to restaurants, rather than "Pizzeria - Ristorante", unless you've read good reviews.
+    <p>Many pizzerias are "Pizzeria - Ristorante", meaning they also offer classic restaurant meals, most often pasta dishes, salads and maybe some meat or fish dishes.</p>
+    <p>If you travel to more touristy areas (like most places in Venice), we'd suggest sticking to restaurants, rather than "Pizzeria - Ristorante", unless you've read good reviews.</p>
 </details>
