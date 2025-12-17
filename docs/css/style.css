@@ -23,7 +23,7 @@ nav ul li {
 }
 
 .nav-icon {
-    width: 1.5rem;
+    width: 1.3rem;
     padding-bottom: 0.3rem;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    border-top: solid 1px gray;
+    border-top: solid 1px rgb(213, 210, 210);
     padding-top: 1rem
 }
 

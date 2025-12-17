@@ -33,15 +33,22 @@ nav {
         flex-direction: column;
 
     }
+    nav {
+        position: unset;
+        width: 100%;
+        bottom: 0;
+        z-index: 10;
+    }
 }
 
 @media (min-width: 1024px) {
     :root {
-    --body-width: 60dvw;
+    --body-width: 70dvw;
     }
 }
 
 .container {
     width: 95%;
     margin: auto;
+    padding-bottom: 4.5rem;
 }
