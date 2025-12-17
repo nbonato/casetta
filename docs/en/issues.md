@@ -24,9 +24,9 @@ If the power does go off, turn off some appliances and reset the main switch (as
 
 ## The wifi does not work
 
-As you know, we do not advertise the avaailability of wifi at the flat. This is because we give guests access to a pocket wifi device, which however isn't particularly reliable and has a data limit, so it's unsuitable to working from home or other intense wifi usages.
+On Airbnb, we do not list wifi as one of the services, but we still give guests access to a pocket wifi device. It's not always reliable and it has a data limit, so it's unsuitable to working from home or other intense wifi usages, which is why we do not advertise it.
 
-Having said that, it should be enough for watching some YouTube or any other streaming platform you have an account for, using the [Chromecast](#the-chromecast-does-not-work).
+Having said that, it should be enough for watching some YouTube or any other streaming platform you have an account for, using the Chromecast.
 
 The wifi name and password are visible from your Airbnb booking (ask in the chat if you can't find them).
 

@@ -1,27 +1,21 @@
 ﻿---
 layout: mylayout.njk
-title: Guide for guests
+title: Welcome to our flat!
 css: "/css/style.css"
 eleventyTemplateEngine: njk
 ---
 
 # {{ title }}
 
-
-## Welcome to our flat!
-
-This is a guide to our flat in Susegana.
 If you are not currently a guest, you can [book a stay on Airbnb](https://airbnb.com/h/susegana).
-
-Everything on this website applies **unless we specifically tell you so through Airbnb chat**. This might happen if we made some changes but haven't had the time to update this guide.
 
 ## House rules, check-in and check-out
 
-Check-in is possible from 15:00 to 22:00 (3 PM to 10 PM). We can rarely make exceptions, due to our work hours, but you can always ask.
+Check-in is possible from 15:00 to 22:00 (3 PM to 10 PM). We normally cannot make exceptions, due to our work hours, but you can always ask.
 
 Check-out should always happen before 12:00 (12 PM or noon), unless we specifically agreed to a different time.
 
-The flat is in a residential building, so we ask you to be considerate of the people living here and avoid loud noises as much as possible, and especially between 22:00 and 8:00 (10 PM to 8 AM).
+The flat is in a residential building, so please be considerate of the people living here and avoid loud noises, especially between 22:00 and 8:00 (10 PM to 8 AM).
 
 ## Places where to eat and grocery shops
 

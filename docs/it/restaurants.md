@@ -6,7 +6,7 @@ css: "/css/style.css"
 
 # {{ title }}
 
-Ci sono alcuni locali vicino all’appartamento; se volete ulteriori informazioni o volete fare domande su luoghi specifici, contattateci pure tramite Airbnb.  
+Ci sono alcuni locali vicino all’appartamento; se volete ulteriori informazioni o avete domande su luoghi specifici, contattateci pure tramite Airbnb.  
 
 Vi conviene sempre chiamare per prenotare un tavolo nei ristoranti, per le pizzerie e le opzioni più informali non è necessario.  
 
@@ -16,7 +16,7 @@ Vi conviene sempre chiamare per prenotare un tavolo nei ristoranti, per le pizze
 - **Casa Brianzuola**  
 - **Da Checco al Mazariol**  
 
-## 🍔 Opzioni più informali
+## 🍔 Altri locali
 
 - **Frasca Borgoluce**, sempre di proprietà dei Collato, è un ristorante piuttosto informale, che serve anche hamburger.Ingredienti per lo più locali  
 - **Barone rosso**, pub con molte birre, locali e non, e cibo da pub (principalmente panini)  
