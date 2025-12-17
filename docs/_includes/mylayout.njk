@@ -3,7 +3,7 @@ title: mylayout
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default('it') }}">
 
 <head>
   <meta charset="utf-8">
@@ -23,25 +23,24 @@ title: mylayout
   <nav>
     <ul>
       {% for item in nav[page.lang] %}
-      <li><a href="{{ item.url | locale_url }}"
-          class="{% if page.url == item.url  | locale_url %}current-page{% endif %}">
+      <li class="{% if page.url == item.url  | locale_url %}current-page{% endif %}"><a
+          href="{{ item.url | locale_url }}">
           {{ item.title }}
         </a></li>
       {% endfor %}
+
     </ul>
+
   </nav>
 
 
 
   <div class="container">
 
-    <div class="language-switcher">
-      {% for link in page.url | locale_links %}
+    {% for link in page.url | locale_links %}
       {%- if not loop.first %},{% endif %}
-      <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-      {% endfor %}
-    </div>
-
+      <a id="language-switcher" href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
+    {% endfor %}
     {{ content | safe }}
   </div>
 
