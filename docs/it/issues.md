@@ -15,12 +15,12 @@ In caso di emergenze, **chiamate il 112, il numero di emergenza europeo** che vi
 Le abitazioni in Italia hanno limiti di elettricità più bassi rispetto ad alcuni altri paesi.  
 Questo significa che la corrente può saltare se vengono utilizzati troppi elettrodomestici contemporaneamente.
 
-Per evitare questo:
+Per evitare che succeda:
 
 - non utilizzate più elettrodomestici ad alto consumo nello stesso momento (ad esempio forno, lavatrice e asciugacapelli)  
 - spegnete un elettrodomestico prima di accenderne un altro, se avete bisogno di usarne più di uno
 
-Se la corrente dovesse andare via, spegnete alcuni elettrodomestici e riarmate l’interruttore principale (chiedeteci come fare tramite la chat di Airbnb).
+Se la corrente dovesse andare via, spegnete alcuni elettrodomestici e riattivate l’interruttore principale (chiedeteci come fare tramite la chat di Airbnb).
 
 ## Il wifi non funziona
 
@@ -35,3 +35,34 @@ Se non vedete la rete wifi dal vostro dispositivo o dal Chromecast, controllate 
 Il dispositivo wifi è quello della foto qui sotto:
 
 ![Black Huawei pocket wifi](../../assets/pictures/pocket-wifi.png)
+
+## Il frigo è spento
+
+Il frigo può essere spento per tre motivi:
+
+1. [è saltata la corrente](#e-saltata-la-corrente)
+2. [l'interruttore del frigo è spento](#l-interruttore-del-frigo-e-spento)
+3. [la temperatura del frigo è a zero](#la-temperatura-del-frigo-e-a-zero)
+
+### È saltata la corrente
+
+In questo caso, seguite le istruzioni scritte sopra per [quando va via la luce](#le-luci-si-sono-spente), ricordandovi di spegnere almeno uno degli elettrodomestici accesi (spesso basta spegnere la lavatrice o il forno).
+
+### L'interruttore del frigo è spento
+
+Il frigo ha un interruttore esterno vicino ai fornelli. Può capitare di spegnerlo per sbaglio, per riaccendere il frigo basta riportare l'interruttore nella posizione in foto (riattivandolo).
+
+L'interruttore è il primo interruttore a destra dei fornelli, quello con le indicazioni di acceso/spento (I/O).
+
+![Interruttore per il frigo, a destra dei fornelli](/assets/pictures/fridge-switch.png)
+
+
+### La temperatura del frigo è a zero
+
+Questo può succedere se ci siamo scordati di riaccendere il frigo dopo un periodo senza ospiti. Per risolvere basta ruotare la rotellina all'interno del frigo, portandola sul 2. Vedrete la luce del frigo riaccendersi immediatamente.
+
+![Rotellina da girare all'interno del frigo, parete interna destra](/assets/pictures/fridge-gear.png)
+
+
+
+

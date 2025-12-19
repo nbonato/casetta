@@ -10,7 +10,7 @@ This page collects possible issues you might experience and solutions to them, b
 
 For serious emergencies, please **call 112, the European emergency number** which will redirect you to the most appropriate service.
 
-## The lights went out
+## The lights have gone out
 
 Homes in Italy have lower electricity limits than in some other countries.
 This means the power can cut out if too many appliances are used at the same time.
@@ -34,3 +34,28 @@ If you do not see the wifi network at all from your device or the Chromecast, pl
 
 ![Black Huawei pocket wifi](../../assets/pictures/pocket-wifi.png)
 
+## The fridge is off
+
+The fridge can be off for three reasons:
+
+1. [There’s been a power outage](#there-s-been-a-power-outage)  
+2. [The fridge switch is off](#the-fridge-switch-is-off)  
+3. [The fridge temperature is set to zero](#the-fridge-temperature-is-set-to-zero)
+
+### There’s been a power outage
+
+In this case, follow the instructions written above for [when the power goes out](#the-lights-have-gone-out), remembering to turn off at least one of the running appliances (often turning off the washing machine or the oven is enough).
+
+### The fridge switch is off
+
+The fridge has an external switch near the cooker. It can sometimes be turned off by mistake — to turn it back on, just flip the switch to the position shown in the photo (reactivating it).
+
+The switch is the first one to the right of the hob, the one marked with the on/off labels (I/O).
+
+![Switch for the fridge, to the right of the hob](/assets/pictures/fridge-switch.png)
+
+### The fridge temperature is set to zero
+
+This can happen if we forgot to turn the fridge back on after a period without guests. To fix it, simply turn the dial inside the fridge to position 2. You’ll see the fridge light turn back on immediately.
+
+![Dial to turn inside the fridge, right inner wall](/assets/pictures/fridge-gear.png)
