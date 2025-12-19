@@ -27,7 +27,10 @@ nav ul {
 nav ul li {
     display: inline;
     text-align: center;
-    padding: 1rem 0;
+}
+
+nav ul li:hover {
+    background-color: var(--accent-colour);
 }
 
 .nav-icon {
@@ -42,6 +45,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 85%;
+    padding: 1rem 0;
 }
 
 
