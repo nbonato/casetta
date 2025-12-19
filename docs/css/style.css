@@ -20,6 +20,8 @@ nav ul {
     display: grid;
     padding: 0;
     grid-template-columns: repeat(5, 1fr);
+    width: var(--content-width);
+
 }
 
 nav ul li {
@@ -52,8 +54,8 @@ a:hover {
   background-color: var(--accent-colour);
 }
 
-body {
-    width: var(--body-width);
+.container {
+    width: var(--content-width);
     margin: auto;
 }
 

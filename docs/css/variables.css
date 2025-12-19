@@ -9,14 +9,15 @@ h1, h2, h3, h4, h5, h6, p, ul
 
 
 :root {
-    --body-width: 100dvw;
+    --content-width: 100dvw;
     --accent-colour: #d44D13;
     --brand-colour: #d76329;
 }
 
-body {
+body, .main-content {
     display: flex;
     flex-direction: column-reverse;
+    margin: 0;
 }
 
 nav {
@@ -26,31 +27,32 @@ nav {
     z-index: 10;
 }
 
+.container {
+    padding-bottom: 4.5rem;
+}
+
 @media (min-width: 768px) {
     :root {
-    --body-width: 80dvw;
+    --content-width: 80dvw;
     }
 
-    body {
+    body, .main-content {
         flex-direction: column;
-
     }
-    nav {
+    nav {   
         position: unset;
         width: 100%;
         bottom: 0;
         z-index: 10;
     }
+    .container {
+        padding-bottom: 0.5rem;
+    }
 }
 
 @media (min-width: 1024px) {
     :root {
-    --body-width: 70dvw;
+    --content-width: 70dvw;
     }
 }
 
-.container {
-    width: 95%;
-    margin: auto;
-    padding-bottom: 4.5rem;
-}
